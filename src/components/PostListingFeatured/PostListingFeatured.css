@@ -1,0 +1,18 @@
+@custom-media --small-viewport (max-width: 719px);
+
+.tile {
+    width: 33%;
+    transition: all 0.2s ease-in-out;
+}
+
+.tile:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    border-color: rgba(0, 0, 0, 0.09);
+}
+
+@media (--small-viewport) {
+    .tile {
+        width: 100%;
+    }
+}
+

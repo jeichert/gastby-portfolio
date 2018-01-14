@@ -1,0 +1,45 @@
+@custom-media --small-viewport (max-width: 719px);
+
+.tile {
+    width: 33%;
+    transition: all 0.2s ease-in-out;
+}
+
+.tile:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    border-color: rgba(0, 0, 0, 0.09);
+}
+
+@media (--small-viewport) {
+    .tile {
+        width: 100%;
+    }
+}
+
+.example-enter {
+    opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.example-appear {
+    opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+

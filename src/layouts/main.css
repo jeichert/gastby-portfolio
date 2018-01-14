@@ -1,0 +1,17 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    margin: 0;
+}
+
+.sidebar {
+    background: #f1f0f0;
+}

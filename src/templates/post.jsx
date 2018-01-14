@@ -48,15 +48,17 @@ export default class PostTemplate extends Component {
     }
 
     return (
-      <Box align="center" alignContent="center">
+      <div>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <Headline align="center">{post.title}</Headline>
-        <Paragraph align="center" size="medium">
-          {post.description}
-        </Paragraph>
+        <Box align="center" alignContent="center">
+          <Paragraph align="center" size="medium">
+            {post.description}
+          </Paragraph>
+        </Box>
         <Columns justify="center" maxCount={3} size="small">
           <Value responsive label="Date" value={post.date} size="small" />
           <Value
@@ -68,19 +70,15 @@ export default class PostTemplate extends Component {
           />
           <Value responsive label="Type" value={post.category} size="small" />
         </Columns>
-        <Hero size="small">
-          {post.images !== null ? (
-            <Carousel>
-              {post.images.map(image => <Image src={image} />)}
-            </Carousel>
-          ) : null}
-        </Hero>
+        {post.images !== null ? (
+          <Carousel>{post.images.map(image => <Image src={image} />)}</Carousel>
+        ) : null}
         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
         {/* <div className="post-meta">
               <PostTags tags={post.tags} />
             </div> */}
         <UserInfo config={config} />
-      </Box>
+      </div>
     )
   }
 }

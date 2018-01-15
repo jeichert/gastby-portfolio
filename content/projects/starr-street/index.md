@@ -1,15 +1,20 @@
 ---
 title: "Starr Street"
-cover: "https://unsplash.it/400/300/?random?AngelsofMist"
+cover: "img/starr/starr_0.jpg"
+images: [
+  "img/starr/starr_0.jpg"
+]
 category: "Multifamily"
-status: "Construction Administration"
-date: "01/03/2017"
-description: "Lorem Ipsum" 
+status: "Construction Admin"
+date: "2019"
+description: "An infill building in the rapidly developing street in Bushwick, Brooklyn, the five-story structure is composed of aluminum panels, gray brick, glass, and wire cables to create a contemporary building that stands out amongst the up and coming developments. The building accomodates 24 residential units, on-site car and bike parking, laundry, gym, and lounge/gameroom."
 featured: true 
+firm: "JFA"
 tags:
-    - cheese
-    - other
-squareFootage: "25000"
+    - Multifamily 
+    - Residential 
+    - New Construction
+squareFootage: "23762"
 ---
 
 # Ab dicemur cura
@@ -37,40 +42,3 @@ if (httpsArtificialColumn < 769656) {
 }
 var so = sampling_motion_unicode(webCursorImpact) + hub
 ```
-
-## Vehi arcus quondam australem agitabitur excessitque coniuge
-
-Celebrant est hausto _reperire et_ unam **caerulaque**, lumen que _Aeaciden_
-mare primo insignis. Et Persidaque [tenet](http://suas.com/meignem), si centum
-que Iovis, inexspectatus mortalis si vindicet maior! Dryades canaeque, quae
-trabes _effundite lacrimas ferax_, suo neve. Hoc postquam misceri melius ille
-vertice frena _fratremque quibus_.
-
-## Tulit lapis decore altis vidi solida
-
-Templi egreditur genitore parte. Captavit est _vicisse filia abesse_ quem tibi
-dubie, fit ille mirantia, nymphae mox dumque intentare monstri. Exempla
-uberibus, non _res_ saevique sic commenta aquis fugit sacris aliquidque totis,
-tamen.
-
-## Hic simul et tibi adversam quaeris senes
-
-Quae nescio fauces contigit in visus, abstitimus colorem enim ieiuna candescere
-aerane mihi stipite nolle sunt. Non tabuit miratur caelesti simulacra fere
-Parnasia principio genetricis atria potentia Hippotaden et terrae iuvere subdita
-quid.
-
-## Moderatus fluctibus mitibus
-
-Ille non revelli o dignare, scelus, loqui Solis quid flebam! Terras in Ixione
-temeraria Orphea pectora. Suis aere da ante praeponere dignus magna tenuit
-Nereides agrestem stare obstipuit threicius cadit haud.
-
-* Iam legebantur inter tum sensit enim similis
-* Vite ferus purpureum videt quo inferius dextra
-* Adsiluit iuvenes eduxit uno velle bene mora
-* Dilectaque aetatis interitura feritate
-
-Sit aequore Haec Troum falleret Ismenides _cortice animam_ est quoque Aeacus.
-Inmittite hostem, succinctis insuper lentisciferumque Cerealis
-[Alemoniden](http://et.net/) matre decusque vade memor laberis, potentem?

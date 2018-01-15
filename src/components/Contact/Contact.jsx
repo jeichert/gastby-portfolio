@@ -30,7 +30,7 @@ class Contact extends Component {
     return (
       <div className="contact">
         <Box direction="column">
-          <WorldMap colorIndex="grey-1" series={Places} />
+          <WorldMap colorIndex="grey-1" series={Places} zoom />
         </Box>
         <Box>
           <Form />

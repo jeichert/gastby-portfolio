@@ -49,7 +49,7 @@ class PostListing extends Component {
                   headingStrong
                   textSize="small"
                   heading={post.title}
-                  description={post.excerpt}
+                  // description={post.excerpt}
                 />
               </Tile>
             </Anchor>

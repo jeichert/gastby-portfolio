@@ -1,24 +1,26 @@
 ---
 title: "New York Ave"
-cover: "img/new-york/NewYork_0.jpg"
+cover: "img/new-york/NewYork_4.jpg"
 images: [
-    "img/new-york/NewYork_0.jpg",
-    "img/new-york/NewYork_6.jpg",
-    "img/new-york/NewYork_7.jpg",
-    "img/new-york/NewYork_3.jpg",
-    "img/new-york/NewYork_4.jpg",
-    "img/new-york/NewYork_2.jpg"
+  "img/new-york/NewYork_0.jpg",
+  "img/new-york/NewYork_6.jpg",
+  "img/new-york/NewYork_7.jpg",
+  "img/new-york/NewYork_3.jpg",
+  "img/new-york/NewYork_4.jpg",
+  "img/new-york/NewYork_2.jpg"
 ]
-date: "01/02/2017"
-category: "Multifamily"
-status: "Construction Administration"
+date: "2020"
+status: "Construction Admin"
+description: "Lorem Ipsum asdfoias asdgiohdf oihasdgoing asdgoihg noiasdgoihg noaisdgoiheoijf oihgoihasdoifjf "
+category: "Mixed-Use"
+firm: "JFA"
 featured: true
-description: "Lorem Ipsum" 
-squareFootage: "75000"
-tags:
-    - test
-    - something
-    - tagging
+tags: 
+  - Mixed-use 
+  - Residential 
+  - Community Facility
+  - New Construction
+squareFootage: "42907"
 ---
 
 # Autolyci eminus retenta
@@ -59,38 +61,3 @@ secus aethera umentes vidisse terrae sororum laboris, fraterno.
 Tibi ducit incursu nomina terrae, feratur satis Telethusa corpore Eurynome in
 semina adiecit! Et spargit pluvialibus, intervenit bracchia pacatum ulciscere
 dolore, thyrso iuvit quo ardere est requiem laesaque in dedimus?
-
-## Est in sit suos fessa
-
-Est illo Osiris aevo, et **dextrae** quoque et, illa. Cumque in facto haec
-Themis malis fatali vehebat gerit; coniunx Minyeidas patruo sanguine collo
-dextra undas aestus, proceres. Falso ut relictas me ara illa _expulit_
-praebentem tanto dubiis anguiferumque. Fata vidit [suam caede
-mirere](http://nare.io/amplexu) serpentibus tibi propositumque vestes capillis
-natalibus, fitque! Verba Siphnon, arcanaque vicina, Cycnum mox suos coniunx
-ebrius.
-
-```java
-    if (hsf(-3) > artMetalMeme.yottabytePrimary(circuit, 1)) {
-        saas.backbone += netmaskUtf;
-    } else {
-        engineNybble.crtSdram = link_icq;
-        whitelist_youtube_search(botnet_w_dma(raidBurn, wavelengthBalancing,
-                5));
-        dithering_printer_so.file(toggle_right);
-    }
-    modifierDaemonOpen *= video(touchscreen_speed(692730), sound_lion_finder,
-            nanometer_variable + of(ldap, recursion_pop_zebibyte, c));
-    if (popCrossplatformVdsl) {
-        thunderboltMnemonic -= 2 - lte(648733);
-        ddr_spoofing *= metal_commercial + http;
-    } else {
-        leafPowerBar = spoolPower;
-        file_itunes += dataLifo;
-    }
-    binary *= 2;
-```
-
-Unumque extemplo melius in unda claudit artem clausum quos amare; damnum formae,
-fragor erubuere Vesta; pietas. Guttura nova modo obstantis nitar et **boves**;
-dixit paratibus tenera contiguas occupat **seque casu**.

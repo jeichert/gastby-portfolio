@@ -37,6 +37,7 @@ export const pageQuery = graphql`
             tags
             category
             cover
+            firm
             date
             featured
           }

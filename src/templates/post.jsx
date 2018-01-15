@@ -7,12 +7,10 @@ import Columns from 'grommet/components/Columns'
 import Value from 'grommet/components/Value'
 import Image from 'grommet/components/Image'
 import Box from 'grommet/components/Box'
+import Animate from 'grommet/components/Animate'
 import Headline from 'grommet/components/Headline'
 import Paragraph from 'grommet/components/Paragraph'
 import UserInfo from '../components/UserInfo/UserInfo'
-// import Disqus from '../components/Disqus/Disqus'
-// import LazyImage from '../components/LazyImage/LazyImage'
-// import PostTags from '../components/PostTags/PostTags'
 import SEO from '../components/SEO/SEO'
 import config from '../../data/SiteConfig'
 import './b16-tomorrow-dark.css'
@@ -52,26 +50,70 @@ export default class PostTemplate extends Component {
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
-        <SEO postPath={slug} postNode={postNode} postSEO />
-        <Headline align="center">{post.title}</Headline>
-        <Box align="center" alignContent="center">
-          <Paragraph align="center" size="medium">
-            {post.description}
-          </Paragraph>
-        </Box>
-        <Columns justify="center" maxCount={3} size="small">
-          <Value responsive label="Date" value={post.date} size="small" />
-          <Value
-            label="Size"
-            size="small"
-            responsive
-            value={post.squareFootage}
-            units="SF"
-          />
-          <Value responsive label="Type" value={post.category} size="small" />
-        </Columns>
+        <Hero size="large">
+          <SEO postPath={slug} postNode={postNode} postSEO />
+          <Animate
+            enter={{
+              animation: 'slide-up',
+              duration: 300
+            }}
+          >
+            <Headline strong align="center">
+              {post.title}
+            </Headline>
+          </Animate>
+          <Animate
+            enter={{
+              animation: 'slide-up',
+              duration: 300
+            }}
+          >
+            <Box align="center" alignContent="center">
+              <Paragraph align="center" size="large">
+                {post.description}
+              </Paragraph>
+            </Box>
+            <Columns justify="center" maxCount={3} size="small">
+              <Value responsive label="Date" value={post.date} size="small" />
+              <Value
+                label="Size"
+                size="small"
+                responsive
+                value={post.squareFootage}
+                units="SF"
+              />
+              <Value
+                responsive
+                label="Type"
+                value={post.category}
+                size="small"
+              />
+            </Columns>
+            <Columns justify="center" maxCount={3} size="small">
+              <Value
+                responsive
+                label="Status"
+                value={post.status}
+                size="small"
+              />
+              <Value responsive label="Firm" value={post.firm} size="small" />
+            </Columns>
+          </Animate>
+        </Hero>
         {post.images !== null ? (
-          <Carousel>{post.images.map(image => <Image src={image} />)}</Carousel>
+          <Animate
+            enter={{
+              animation: 'slide-up',
+              duration: 300,
+              delay: 600
+            }}
+          >
+            <Carousel size="small">
+              {post.images.map((image, i) => (
+                <Image full="vertical" key={i} src={image} />
+              ))}
+            </Carousel>
+          </Animate>
         ) : null}
         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
         {/* <div className="post-meta">
@@ -97,8 +139,10 @@ export const pageQuery = graphql`
         date
         description
         category
+        status
         squareFootage
         tags
+        firm
       }
       fields {
         slug

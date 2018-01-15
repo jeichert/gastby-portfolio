@@ -1,14 +1,21 @@
 ---
 title: "Parkside Ave"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
-date: "01/03/2017"
-description: ""
-squareFootage: "40000"
-category: "Commercial"
-featured: true 
-status: "Construction Administration"
-tags:
-    - tag
+cover: "img/parkside/Parkside_0.jpg"
+images: [
+    "img/parkside/parkside_0.jpg"
+]
+date: "2020"
+status: "Construction Admin"
+description: "This commercial/mixed-use building contains 44,818 square feet of warehouse, office, community facility space with enormous rooftop decks offering incredible workspace opportunities. The buildings below grade story that will be used as a full commercial kitchen. The facade is composed of intricate brick detailing harkening back to the New York City loft buildings of the 1900s, as well as enormous aluminum casement windows providing massive amounts of light and ventilation."
+category: "Commercial / Mixed-use"
+firm: "JFA"
+featured: true
+tags: 
+    - Commercial 
+    - Mixed-Use
+    - Brick 
+    - New Construction 
+squareFootage: "44818"
 ---
 
 # Domos primus caelum taedia

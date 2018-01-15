@@ -47,12 +47,12 @@ class PostListingFeatured extends Component {
                   <Tile key={post.title} fill>
                     <Card
                       thumbnail={post.cover}
+                      heading={post.title}
                       label={post.category}
                       link={<Anchor href={post.path} />}
                       headingStrong
                       textSize="small"
-                      heading={post.title}
-                      description={post.excerpt}
+                      // description={post.excerpt}
                     />
                   </Tile>
                 </Anchor>

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 import Helmet from 'react-helmet'
+import Zoom from 'react-thumbnail-zoom'
 import Hero from 'grommet/components/Hero'
-import Carousel from 'grommet/components/Carousel'
 import Columns from 'grommet/components/Columns'
 import Value from 'grommet/components/Value'
-import Image from 'grommet/components/Image'
+// import Image from 'grommet/components/Image'
 import Box from 'grommet/components/Box'
 import Animate from 'grommet/components/Animate'
 import Headline from 'grommet/components/Headline'
@@ -17,22 +17,6 @@ import './b16-tomorrow-dark.css'
 import './post.css'
 
 export default class PostTemplate extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      imagesLoaded: false,
-      masonryOptions: {
-        columWidth: 80,
-        gutter: 10,
-        itemSelector: '.grid-item'
-      }
-    }
-    this.handleImagesLoaded = this.handleImagesLoaded.bind(this)
-  }
-  handleImagesLoaded() {
-    this.setState({ imagesLoaded: true })
-  }
-
   render() {
     const { slug } = this.props.pathContext
     const postNode = this.props.data.markdownRemark
@@ -108,11 +92,15 @@ export default class PostTemplate extends Component {
               delay: 600
             }}
           >
-            <Carousel size="small">
-              {post.images.map((image, i) => (
-                <Image full="vertical" key={i} src={image} />
-              ))}
-            </Carousel>
+            {/* <Carousel size="small"> */}
+            {post.images.map((image, i) => (
+              <Box margin="small">
+                <Zoom>
+                  <img key={i} src={image} />
+                </Zoom>
+              </Box>
+            ))}
+            {/* </Carousel> */}
           </Animate>
         ) : null}
         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />

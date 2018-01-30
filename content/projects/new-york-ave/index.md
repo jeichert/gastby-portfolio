@@ -7,11 +7,14 @@ images: [
   "img/new-york/NewYork_7.jpg",
   "img/new-york/NewYork_3.jpg",
   "img/new-york/NewYork_4.jpg",
-  "img/new-york/NewYork_2.jpg"
+  "img/new-york/NewYork_2.jpg",
+  "img/new-york/2nd-Floor.jpg",
+  "img/new-york/7th-Floor.jpg",
+  "img/new-york/Front-Elevation.jpg",
 ]
 date: "2020"
 status: "Construction Admin"
-description: "Lorem Ipsum asdfoias asdgiohdf oihasdgoing asdgoihg noiasdgoihg noaisdgoiheoijf oihgoihasdoifjf "
+description: "Located on the border of Prospect Lefferts Garden and East Flatbush, this mixed-used building contains a ground floor community facility space and 39 dwelling units over 42,907 SF. The buildings amenities include laundry, 1,000 SF of recreation space, split between a gym and a lounge, as well as ample public outdoor terrace space. The buildings exterior is timeless with it's gray brick, metal panel, and large glass windows, while it's interior boasts a warm, welcoming palette with solid wood, gold accents, and deep blue paint and wallpapers throughout."
 category: "Mixed-Use"
 firm: "JFA"
 featured: true
@@ -22,42 +25,3 @@ tags:
   - New Construction
 squareFootage: "42907"
 ---
-
-# Autolyci eminus retenta
-
-## Hoc domum solitos veteremque nostrum
-
-Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
-quales dant, puppim hanc!
-
-```js
-enterprise /= mp_operating_quad
-dsl_runtime.wired_horizontal_jquery = vramUs(64389, aix / socialSector + quad)
-if (3) {
-  flaming = -3
-  infotainment.horseThreadColumn(copySnippet, 5, day)
-} else {
-  num_network_cpa = firewireAluExbibyte + denial_virtual_logic + program
-}
-scanner(1, ram_wddm(map, reader + 3, ole_install))
-```
-
-## In nunc
-
-Superinposita dira me Iove, lanigeris tendunt! Illis gladii, in pignusque dixit
-trisulcis latices. Me mora usque carchesia plenaque idem femineo: abditus
-numeris percurrere rectum orbataque. Lucibus nocuisse et nova attactu et secura,
-enim poterentur.
-
-Infelix ait eadem. Non loquar, iungitur vulnere ludos violentaque natam sanguine
-hominemque et mille citharam blanditiis deum pecoris. Vibrabant et crimina
-iterum: et nisi victa quietis litore? Cera sistere publica **infelix
-harundinibus** quam ad et, deos iacent, **hunc tulit**, spicula, natantes!
-Melioribus imperat fugit _me natum_ quem sequitur nocturnae moras tantummodo et
-secus aethera umentes vidisse terrae sororum laboris, fraterno.
-
-## Perpetiar lacrimas Non dare
-
-Tibi ducit incursu nomina terrae, feratur satis Telethusa corpore Eurynome in
-semina adiecit! Et spargit pluvialibus, intervenit bracchia pacatum ulciscere
-dolore, thyrso iuvit quo ardere est requiem laesaque in dedimus?

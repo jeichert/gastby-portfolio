@@ -11,15 +11,15 @@ module.exports = {
       degree: 'Masters of Architecture',
       location: 'Boston, MA',
       dates: 'May 2012 - May 2016',
-      gpa: 3.95,
+      gpa: 3.95
     },
     {
       name: 'Emerson College',
       degree: 'Bachelors of Fine Arts - Theatre Design/Technology',
       location: 'Boston, MA',
       dates: 'September 2008 - May 2012',
-      gpa: null,
-    },
+      gpa: null
+    }
   ],
   jobs: [
     {
@@ -29,8 +29,8 @@ module.exports = {
       dates: 'May 2015 - Present',
       description: [
         'Designing and developing commercial and multi-family residiential projects from concept to construction documents.',
-        'Collaborating with clients, consultants, contractors, fabricators, and other project team members to meet project objectives.',
-      ],
+        ' Collaborating with clients, consultants, contractors, fabricators, and other project team members to meet project objectives.'
+      ]
     },
     {
       name: 'Massachusetts College of Art and Design',
@@ -39,28 +39,28 @@ module.exports = {
       dates: 'September 2013 - December 2014',
       description: [
         'Taught courses for foundation and upper level curriculum, engaging and advising students in the conceptualization and completion their projects.',
-        'Community Build Studio, Summer 2014.',
-        'Form Study, Spring 2013, 2014.',
-        'Drawing 1, Fall 2013.',
-      ],
+        ' Community Build Studio, Summer 2014.',
+        ' Form Study, Spring 2013, 2014.',
+        ' Drawing 1, Fall 2013.'
+      ]
     },
     {
-      name: '',
-      position: 'Freelance Theatrical Technician',
+      name: 'Freelance',
+      position: 'Theatrical Technician',
       location: 'Boston, MA',
       dates: 'May 2012 - December 2014',
       description: [
-        'Worked with a variety of companies throughout Boston to realize theatrical productions and events; typical shows/events include musicals, plays, live music, dance, opera, trade shows, conferences, etc.',
-      ],
+        'Worked with a variety of companies throughout Boston to realize theatrical productions and events; typical shows/events include musicals, plays, live music, dance, opera, trade shows, conferences, etc.'
+      ]
     },
     {
-      name: 'Massachusetts College of Art and Design',
+      name: 'Massachusetts College of Art and Design (MassArt)',
       position: 'Website Administrator & Graphic Designer',
       location: 'Boston, MA',
       dates: 'September 2012 - December 2014',
       description: [
-        'Designed and Managed MassArt Department of Architecture website to better suit the departments needs, by providing a sounding board for department wide news and events.',
-      ],
+        'Designed and Managed MassArt Department of Architecture website to better suit the departments needs, by providing a sounding board for department wide news and events.'
+      ]
     },
     {
       name: 'Emerson College/Emerson Stage',
@@ -68,9 +68,9 @@ module.exports = {
       location: 'Boston, MA',
       dates: 'September 2008 - May 2012',
       description: [
-        'Worked in the Emerson Stage scene shop to produce scenery and props for the Emerson Stage productions. Jobs included carpentry, scenic painting, welding, and special effects.',
-      ],
-    },
+        'Worked in the Emerson Stage scene shop to produce scenery and props for the Emerson Stage productions. Jobs included carpentry, scenic painting, welding, and special effects.'
+      ]
+    }
   ],
   experience: [
     {
@@ -80,8 +80,8 @@ module.exports = {
         location: 'Boston, MA',
         dates: 'December 2014 - June 2014',
         description: [
-          'Designed and developed a series of fliers, calendars, event cards, and other printed advertising, for distribution via email, and around campus.',
-        ],
+          'Designed and developed a series of fliers, calendars, event cards, and other printed advertising, for distribution via email, and around campus.'
+        ]
       },
       osha: {
         name: 'OSHA',
@@ -89,9 +89,9 @@ module.exports = {
         location: 'Boston, MA',
         dates: 'May 2014 - Present',
         description: [
-          'Completed 10 hour OSHA training course for construction administration of the Community Build design studio for MassArt’s M.Arch summer program.',
-        ],
-      },
-    },
-  ],
+          'Completed 10 hour OSHA training course for construction administration of the Community Build design studio for MassArt’s M.Arch summer program.'
+        ]
+      }
+    }
+  ]
 }

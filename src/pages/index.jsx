@@ -71,6 +71,7 @@ export const pageQuery = graphql`
             title
             category
             tags
+            path
             cover
             date
             featured

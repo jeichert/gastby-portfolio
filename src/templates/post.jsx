@@ -5,11 +5,11 @@ import Zoom from 'react-thumbnail-zoom'
 import Hero from 'grommet/components/Hero'
 import Columns from 'grommet/components/Columns'
 import Value from 'grommet/components/Value'
-// import Image from 'grommet/components/Image'
 import Box from 'grommet/components/Box'
 import Animate from 'grommet/components/Animate'
 import Headline from 'grommet/components/Headline'
 import Paragraph from 'grommet/components/Paragraph'
+import Button from 'grommet/components/Button'
 import UserInfo from '../components/UserInfo/UserInfo'
 import SEO from '../components/SEO/SEO'
 import config from '../../data/SiteConfig'
@@ -18,7 +18,7 @@ import './post.css'
 
 export default class PostTemplate extends Component {
   render() {
-    const { slug } = this.props.pathContext
+    const { slug, next, prev } = this.props.pathContext
     const postNode = this.props.data.markdownRemark
     const post = postNode.frontmatter
 
@@ -92,21 +92,38 @@ export default class PostTemplate extends Component {
               delay: 600
             }}
           >
-            {/* <Carousel size="small"> */}
             {post.images.map((image, i) => (
-              <Box margin="small">
+              <Box margin="small" align="center" alignContent="center">
                 <Zoom>
                   <img key={i} src={image} />
                 </Zoom>
               </Box>
             ))}
-            {/* </Carousel> */}
           </Animate>
         ) : null}
         <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+
+        <Box direction="row" justify="between">
+          {prev && (
+            <Button
+              accent
+              colorIndex="grey-1"
+              label="Previous Project"
+              path={prev.fields.slug}
+            />
+          )}
+          {next && (
+            <Button
+              accent
+              colorIndex="grey-1"
+              label="Next Project"
+              path={next.fields.slug}
+            />
+          )}
+        </Box>
         {/* <div className="post-meta">
-              <PostTags tags={post.tags} />
-            </div> */}
+          <PostTags tags={post.tags} />
+        </div> */}
         <UserInfo config={config} />
       </div>
     )
@@ -130,6 +147,7 @@ export const pageQuery = graphql`
         status
         squareFootage
         tags
+        path
         firm
       }
       fields {

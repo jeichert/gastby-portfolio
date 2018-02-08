@@ -20,4 +20,5 @@ tags:
     - Residential 
     - New Construction
 squareFootage: "23762"
+path: "/starr-street"
 ---

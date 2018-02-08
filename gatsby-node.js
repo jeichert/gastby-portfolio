@@ -62,10 +62,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           console.log(result.errors)
           reject(result.errors)
         }
+        const projectPosts = result.data.allMarkdownRemark.edges
 
         const tagSet = new Set()
         const categorySet = new Set()
-        result.data.allMarkdownRemark.edges.forEach(edge => {
+        projectPosts.forEach((edge, index) => {
+          const next = index === 0 ? false : projectPosts[index - 1].node
+          const prev =
+            index === projectPosts.length - 1
+              ? false
+              : projectPosts[index + 1].node
           if (edge.node.frontmatter.tags) {
             edge.node.frontmatter.tags.forEach(tag => {
               tagSet.add(tag)
@@ -80,7 +86,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             path: edge.node.fields.slug,
             component: postPage,
             context: {
-              slug: edge.node.fields.slug
+              slug: edge.node.fields.slug,
+              prev,
+              next
             }
           })
         })

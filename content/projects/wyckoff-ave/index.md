@@ -26,4 +26,5 @@ tags:
     - Residential 
     - New Construction 
 squareFootage: "58486"
+path: "/wyckoff-ave"
 ---

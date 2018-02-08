@@ -24,4 +24,5 @@ tags:
   - Community Facility
   - New Construction
 squareFootage: "42907"
+path: "/new-york-ave"
 ---

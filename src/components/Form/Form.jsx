@@ -8,25 +8,53 @@ import Footer from 'grommet/components/Footer'
 import Button from 'grommet/components/Button'
 
 class FormComponent extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleSubmit = e => {
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contact', ...this.state })
+    })
+      .then(() => alert('Success!'))
+      .catch(error => alert(error))
+    e.preventDefault()
+  }
+
   render() {
     return (
-      <Form>
+      <div>
         <Header>
           <Heading>Contact Me</Heading>
         </Header>
-        <FormField label="Name">
-          <TextInput id="name" name="name" placeholder="Name" />
-        </FormField>
-        <FormField label="Email">
-          <TextInput id="email" name="email" placeholder="Email" />
-        </FormField>
-        <FormField label="Message">
-          <textarea id="message" name="message" placeholder="Message" />
-        </FormField>
-        <Footer pad={{ vertical: 'medium' }}>
-          <Button label="Submit" type="submit" primary />
-        </Footer>
-      </Form>
+        <Form
+          name="contact"
+          method="post"
+          data-netlify-honeypot="bot-field"
+          data-netlify
+          onSubmit={this.handleSubmit}
+        >
+          <FormField label="Name">
+            <TextInput id="name" name="name" placeholder="Name" />
+          </FormField>
+          <FormField label="Email">
+            <TextInput id="email" name="email" placeholder="Email" />
+          </FormField>
+          <FormField label="Message">
+            <textarea id="message" name="message" placeholder="Message" />
+          </FormField>
+          <Footer pad={{ vertical: 'medium' }}>
+            <Button label="Submit" type="submit" primary />
+          </Footer>
+        </Form>
+      </div>
     )
   }
 }

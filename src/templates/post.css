@@ -1,10 +1,9 @@
 .post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.grid-sizer,
-.grid-item {
-    width: 49%;
+.center-image {
+  margin: 0 auto;
 }

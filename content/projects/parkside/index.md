@@ -21,4 +21,5 @@ tags:
     - Brick 
     - New Construction 
 squareFootage: "44818"
+path: "/parkside-ave"
 ---
